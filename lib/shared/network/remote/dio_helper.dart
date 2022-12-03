@@ -6,7 +6,7 @@ class DioHelper{
   static init(){
     dio = Dio(
       BaseOptions(
-        baseUrl: '',
+        baseUrl: 'https://jsonplaceholder.typicode.com',
         receiveDataWhenStatusError: true,
       ),
     );
